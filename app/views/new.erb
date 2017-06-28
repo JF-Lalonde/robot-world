@@ -1,12 +1,22 @@
-h1>Add robot</h1>
-<form action="/robots" method= "post">
-  <label>name</label>
-  <input type= "text" name= "robot[name]"><br/>
-  <label>city</label>
-  <input type= "text" name= "robot[city]"><br/>
-  <label>state</label>
-  <input type= "text" name= "robot[state]"><br/>
-  <label>department</label>
-  <input type= "text" name= "robot[department]"><br/>
-  <input type= "submit">
-</form>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/application.css">
+    <title>Robot World</title>
+  </head>
+  <body>
+    <a href="/robots">Go Back</a>
+    <h1>Add robot</h1>
+    <form action="/robots" method= "post">
+      <label>Name</label>
+      <input class="mytext" type= "text" name= "robot[name]"><br/>
+      <label>City</label>
+      <input class="mytext" type= "text" name= "robot[city]"><br/>
+      <label>State</label>
+      <input class="mytext" type= "text" name= "robot[state]"><br/>
+      <label>Department</label>
+      <input class="mytext" type= "text" name= "robot[department]"><br/>
+      <input type= "submit">
+    </form>
+  </body>
+</html>

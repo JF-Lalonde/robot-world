@@ -1,1 +1,83 @@
+body {
+  background-image: url("http://wallpapercave.com/wp/IGTSjhz.jpg");
+  background-size: cover;
+  background-color: #707c8e;
+}
 
+body {
+
+  font-size: 15pt;
+
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+  line-height: 14pt;
+
+  padding-left: 15pt;
+
+  padding-right: 5pt;
+
+  padding-top: 5pt;
+
+}
+
+
+h1 {
+
+  font: 24pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+  font-weight: bold;
+
+  line-height: 20pt;
+
+  color: #1a2028;
+}
+
+
+p{
+
+  font-weight: bold;
+
+  color: #593d87;
+
+}
+
+
+.edit {
+
+  font: 12pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+  font-weight: bold;
+
+  line-height: 30pt;
+
+  color: ##364860;
+
+}
+
+label{
+
+    display: inline-block;
+    width: 120px;
+}
+
+.mytext {
+
+    width: 300px;
+}
+
+a:link, a:visited {
+
+  color: ##364860;
+
+}
+
+
+a:hover, a:active {
+
+  color: #FF9933;
+
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
